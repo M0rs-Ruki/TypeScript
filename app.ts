@@ -82,10 +82,49 @@
 // and = 'mors';
 
 
-function abcd(): never {
-    while (true) {
-        console.log('mors')
-    }
-}
-abcd();
-console.log('Mors Code');
+// function abcd(): never {
+//     while (true) {
+//         console.log('mors')
+//     }
+// }
+// abcd();
+// console.log('Mors Code');
+
+
+// type Inference
+// Understanding type inference
+// Type annotations
+
+
+// let a = 12; // inference
+
+// let b: number; // annotations
+
+// const abc = (a: number, b: string): number | string => {
+//     return a + b;
+// }
+
+
+// Intetfaces and Type Aliases
+
+// function abc(a: number, b: string) {
+
+// }
+
+// interface User{
+//     name: string,
+//     email: string,
+//     isActive: boolean,
+// }
+
+// function getDataOfUser(obj: User) {
+//     obj.name,
+//     obj.email,
+//     obj.isActive
+// }
+
+// getDataOfUser({
+//     name:'mors',
+//     email: 'mors@gamil.com',
+//     isActive: true,
+// })
