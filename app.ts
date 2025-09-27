@@ -106,6 +106,12 @@
 
 
 // Intetfaces and Type Aliases
+// Definging interfaces
+// Using interfaces to define object shapes
+// Extending interfaces
+// Type aliases
+// Intersection Types
+
 
 // function abc(a: number, b: string) {
 
@@ -128,3 +134,41 @@
 //     email: 'mors@gamil.com',
 //     isActive: true,
 // })
+
+
+// interface User {
+//     name: string,
+//     email: string,
+//     isActive: boolean,
+// }
+
+// interface Admin extends User {
+//     admin: boolean,
+// }
+
+// function getUser(obj: Admin) {
+//     obj.name,
+//     obj.email,
+//     obj.isActive,
+//     obj.admin
+// }
+
+// interface abcd {name: string}
+// interface abcd {age: number}
+// function abcd(obj: abcd) {
+//     obj.name,
+//     obj.age
+// }
+
+
+// type num = number;
+// let a: num;
+// a = 12;
+// a = 'mors'; // error
+
+// type value = string | number;
+// let a: value;
+// a = 12;
+// a = 'mors';
+// a = true; // error
+
