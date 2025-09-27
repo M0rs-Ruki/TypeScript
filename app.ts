@@ -172,3 +172,26 @@
 // a = 'mors';
 // a = true; // error
 
+
+
+// Classes and Objects
+// Classs definition
+// Constructors
+// Access modifiers (Publice, private, Protected)
+// Readonly Properties
+// Optinal Properties
+// Getters and setters
+// Static members
+// Abstract classes and methods
+
+// class Device {
+//     name= 'acer';
+//     price= 580000;
+//     categry= 'laptop';
+// }
+
+// let d1 = new Device();
+// let d2 = new Device();
+// let d3 = new Device();
+
+
