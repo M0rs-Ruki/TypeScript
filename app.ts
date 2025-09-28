@@ -272,3 +272,88 @@
 
 
 
+// introduction to Functions
+
+// function abcd(name: string, cd: (val: string) => void ): void {
+// }
+// abcd('mors', (val) => {
+//     console.log(val);
+// })
+
+// function abcd(name: string, age: number, cd: (val: string) => void) {
+//     cd(name);
+// }
+
+// abcd("mors", 20, (val) => {
+//     console.log(val);
+// })
+
+// function acd(name: string, age: number, gender?: string) {
+
+// }
+// acd('mors', 20);
+// acd('mors', 20, 'male');
+
+// function abc(...args: number[]) {}
+
+// abc(1,2,3,4,5,6,7,8,9,10)
+
+// ts fnc signature
+// function abc(a: string): void;
+// function abc(a: string, b:number): number;
+
+// function abc(a: any, b?: any) {
+//     if (typeof a === 'string' && typeof b === undefined) {
+//         console.log('hello jeee');    
+//     }
+//     if (typeof a === 'string' && typeof b === 'number') {
+//         return 1324;
+//     } else throw new Error('Something went wrong')
+
+// }
+
+// Generics
+// Generic Functions
+// Generic interfaces
+// Generic classes
+
+
+// function logger(a:string) {} // error
+// function logger(a:any) {} // no help 
+
+
+// function logger<T>(a:T) {}
+// logger<string>('mors');
+// logger<number>(12);
+// logger<boolean>(true);
+
+
+
+// function abc<T>(a: T, b: string) {}
+// abc<number>(12, 'mors');
+// abc<string>('mors', 'mors');
+// abc<boolean>(true, 'mors');
+
+// interface haha<T>{
+//     name: string,
+//     age: number,
+//     key: T
+// }
+
+// function abc<T>(obj: haha<T>) {}
+
+// abc({name: 'mors', age: 20, key: 12})
+// abc({name: 'mors', age: 20, key: 'mors'})
+// abc({name: 'mors', age: 20, key: true})
+// abc({name: 'mors', age: 20, key: null})
+
+
+// class BottleMaker<T>{
+//     constructor(public name: string, public key: T) {}  
+// }
+
+// new BottleMaker('mors', 12)
+// new BottleMaker('mors', 'mors')
+
+
+// Modules
