@@ -195,3 +195,46 @@
 // let d3 = new Device();
 
 
+// what is Constructors ?
+// Constructores are 
+// special functions that are executed when an object is created from a class.
+// They are used to initialize the object's properties.
+
+// constructor -> 
+
+// class bottleMaker {
+//     constructor(public name: string, public price: number) {}
+// }
+
+// let haha = new bottleMaker('Milton', 1200)
+
+
+// class humanMaker{
+//     constructor(public brand: string, public price: number, public color: string) {}
+// }
+
+// const hii = new humanMaker('mors', 1200, 'black')
+
+
+// class Music {
+    // constructor(public name: string, public artist: string, public thubnail: string = 'some thubnail.jpg', public lenth: number) { }
+// }
+
+// or
+
+// class Music {
+//     public name;
+//     public artist;
+//     public thubnail;
+//     public lenth;
+//     constructor( name: string,  artist: string,  thubnail: string = 'some thubnail.jpg',  lenth: number) {
+//         this.name = name;
+//         this.artist = artist;
+//         this.thubnail = thubnail;
+//         this.lenth = lenth;
+//     }
+// }
+
+// new Music('mor mor', 'mors', 'mors.jpg', 123)
+
+
