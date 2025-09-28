@@ -237,4 +237,38 @@
 
 // new Music('mor mor', 'mors', 'mors.jpg', 123)
 
+// class BottleMaker{
+//     private name = 'Mors';
+// }
+
+// class MatalBottleMaker extends BottleMaker {
+//     public mateial = 'metal';
+// }
+
+// let b1 = new MatalBottleMaker()
+
+// class BottleMaker{
+//     protected name = 'Mors';
+// }
+
+// class MatalBottleMaker extends BottleMaker {
+//     public mateial = 'metal';
+//     // changeNmae() {this.name = 'Ruki';} // error on the private 
+//     changeNmae() {this.name = 'Ruki';} // no errror on the line for protected
+// }
+
+// let b1 = new MatalBottleMaker()
+
+// class User{
+//     constructor(public readonly ncame: String) {}
+
+//     changeName() {
+//         this.name = 'Mors';
+//     }   
+// }
+
+// let u1 = new User('ruki')
+// u1.changeName()
+
+
 
