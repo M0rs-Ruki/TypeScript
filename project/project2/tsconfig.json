@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Compile to a modern JavaScript version
+    "module": "ESNext", // Use the standard module system for Node.js
+    "outDir": "./dist", // Directory for compiled JavaScript files
+    "rootDir": "./src", // Directory for your source TypeScript files
+    "esModuleInterop": true, // Allows for better compatibility between module types
+    "strict": true // Enables a wide range of type checking
+  }
+}
