@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-import router from './Routes/index.js';
+import router from './Routes/indexRoute.js';
 
 app.use('/', router);
 

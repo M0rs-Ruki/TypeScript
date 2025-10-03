@@ -65,12 +65,18 @@ const login = async (req: Request, res: Response) => {
     }
 }
 
+const logOut = async (req: Request, res: Response) => {
+    try {
+        res.clearCookie("token");
+        res.status(200).json({ message: "Logged out successfully" });
+
+        res.redirect("/")
+    } catch (error: any) {
+        console.error("Logout error:", error);
+        res.status(500).send("Error occurred during logout");
+    }
+}
 
 
 
-
-
-
-
-
-export { register, login,  };
+export { register, login, logOut };
